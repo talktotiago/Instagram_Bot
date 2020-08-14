@@ -18,7 +18,7 @@ You can generate a list of tags manually or dynamically or both.
 
 To do it MANUALLY: Go inside Tags folder and add as many tags as you'd like inside tags.txt file. Each tag must be in a single line.
 
-To do it DYNAMICALLY: Go to file trending_searches.py and edit the LIST type variable "tags_to_search" with the tags you'd like to build a list. Save it and run the file. This will automatically add 10 different tags per tag you types. These tags are retrieved from the website https://best-hashtags.com/. So, if you add 20 tags in the "tags_to_search" you will end up building a list with 200 tags. That means 200 different urls for selenium to visit. Play safe with this in order to fly under instagram filters.
+To do it DYNAMICALLY: Go to file trending_searches.py and edit the LIST type variable "tags_to_search" with the tags you'd like to build a list. Save it and run the file. This will automatically add 10 different tags per tag in "tags_to_search" list variable. These tags are retrieved from the website https://best-hashtags.com/. So, if you add 20 tags in the "tags_to_search" you will end up building a list with 200 tags. That means 200 different urls for selenium to visit. Play safe with this in order to fly under instagram filters.
 
 Step 4: This program is built with the use of Stories. Each Story is a scene. By default you should start your program with "Scene_0()" - this scene will attempt to perform login by Instagram, and if unsuccesful it will attempt to login via Facebook. That's why you should add your Facebook credentials.
 
