@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome(executable_path='/home/jack/Desktop/chromedriver_linux64/chromedriver', chrome_options=chrome_options)
+driver = webdriver.Chrome(executable_path=r'./Driver/chromedriver', chrome_options=chrome_options)
 
 
 
