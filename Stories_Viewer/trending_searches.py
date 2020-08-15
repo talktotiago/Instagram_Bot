@@ -2,17 +2,29 @@ from Essentials.essentials import *
 
 
 tag_to_search = [
-    'Market', 
-    'Ecommerce', 
-    'ForSale', 
-    'Neymar', 
-    'Photography', 
-    'PicOfTheDay', 
-    'Instadog', 
-    'Georgia',
-    'Tblisi',
-    'Kiev',
-    'Madagascar',
+    'DataMining', 
+    'DataWrangling', 
+    'Python', 
+    'QualityAssurance', 
+    'API', 
+    'Cucumber', 
+    'Jenkins', 
+    'BeautifulSoup',
+    'Webscraping',
+    'Foodie',
+    'Yummie',
+    'Juice',
+    'Coffee',
+    'Time',
+    'Economy',
+    'Diplomacy',
+    'World',
+    'GiroDiItalia',
+    'Trento',
+    'Alps',
+    'Bavaria',
+    'Oktoberfest',
+    'NewZealand'
     ]
 
 url = 'https://best-hashtags.com/hashtag/'
@@ -56,4 +68,4 @@ def Trending_Hashtags():
     file_to_save_tags.close()
     driver.quit()
 
-
+Trending_Hashtags()

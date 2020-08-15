@@ -38,6 +38,8 @@ except:
     print("Error while trying to watch stories from people I follow - Some Error with Scene_1() - going to next Scene")
 #try:
 print("Starting Scene_5() - Liking 6 posts per tag")
-Liking_6_Posts_Per_Tag()
+Scene_5()
 #except:
 print("Some error happened while trying to like posts from tags - Scene_5() failed")
+
+End_Movie()
